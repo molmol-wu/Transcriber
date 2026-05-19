@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  .markdown-body {
+    @apply text-sm leading-relaxed text-[#e1e1e1];
+  }
+  
+  .markdown-body p {
+    @apply mb-4;
+  }
+  
+  /* Speaker and timestamp markers usually rendered in strong or emphasized text */
+  .markdown-body strong {
+    @apply text-orange-500 font-bold;
+  }
+}

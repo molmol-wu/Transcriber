@@ -1,0 +1,6 @@
+{
+  "name": "智音逐字稿 (AI Audio Transcriber)",
+  "description": "支援多種格式、自動分割長音檔、辨別說話者與時間戳記的專業逐字稿工具。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
